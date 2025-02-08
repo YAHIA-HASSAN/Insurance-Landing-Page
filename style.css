@@ -1,0 +1,150 @@
+*{
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+nav li{
+    display: inline-block;
+    padding-left: 30px;
+}
+#nav-bar{
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#logo{
+    display: inline-block;
+     margin-right: 45%;
+    padding: 0px 0px 0px 10px;
+    
+}
+
+#logo > *{
+    margin: 0;
+    padding: 0;
+}
+#logo img{
+    display: inline-block;
+    width: 50px !important;
+    height: 50px !important;
+    /* padding: 10px; */
+}
+#menu{
+    display: inline-block;
+    top: 0;
+}
+
+section{
+    height: 50%;
+    margin-top: 5%;
+    display: block;
+    position: relative;
+}
+
+
+a{
+ text-decoration-line: none;
+ color: #61794a;
+}
+a:hover{
+    color: #73ca21; 
+}
+
+input[type="button"]{
+    color: white;
+    background-color: #aac644;
+    border-radius: 0%;
+    font-weight: bold;
+    font-size: large;
+    height: 40px;
+    border: 0px;
+    padding:10px 20px;
+}
+input[type="button"]:hover{
+    background-color: hsla(0, 0%, 100%, 0);
+    border: #aac644 1px solid;
+    color: #aac644;
+}
+
+#page-header-sec{
+    color: rgb(31, 27, 27);   
+    background-image: url(./src/i02.jpeg);
+    background-position: center;
+}
+#page-header-sec > div{
+    background: rgba(236, 161, 9, 0.3);
+    padding: 13%;
+    height: 50%;    
+    font-size: larger;
+    color: rgb(255, 253, 253); 
+    font-weight: bolder;
+}
+#insurance-sec{
+
+    height: 50%;
+    padding: 1%;
+}
+#insurance-data{
+    width: 49%;
+    height: 50%;
+    display: inline-block;
+    color: rgba(63, 72, 93, 1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: rgba(248, 167, 21, 1);
+
+}
+#insurance-img{
+    height: 300px;
+    display: inline-block;
+}
+#insurance-img img{
+    width: inherit;
+    height: inherit;
+}
+#services-sec{
+    background-color: rgba(97, 121, 74, 1);
+    color: white;
+    left: 0;
+}
+#services-sec div{
+    display: inline-block;
+    width: 29%;
+    margin: 5px;
+    padding: 10px;
+}
+#customer-care-div:hover{
+    background-image: url(src/i06.jpg);
+    background-size: cover;
+    filter: opacity(0.5);
+
+}
+#claims-information-div:hover{
+    background-image: url(src/i07.jpg);
+    background-size: cover;
+    filter: opacity(0.5);
+}
+#request-a-quate-div:hover{
+    background-image: url(src/i05.jpg);
+    filter: opacity(0.5);
+    background-size: cover;
+}
+
+
